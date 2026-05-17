@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 54bf094b5d48dd1419d08a51fe5ec692
+guid: 8fa7e8ed9eaece840800458684f0bb03
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: upWalk_0
+      name: WitchWalkBack_0
       rect:
         serializedVersion: 2
         x: 16
@@ -135,16 +135,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b9ff2702ca4464045b0f2b3111d1c9ef
-      internalID: 111420395
+      spriteID: b280254dc35657190800000000000000
+      internalID: -7965349054000265173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upWalk_1
+      name: WitchWalkBack_1
       rect:
         serializedVersion: 2
         x: 80
@@ -157,16 +157,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2c414cc4eb9fd2f4abd946c35be83202
-      internalID: -280987549
+      spriteID: 413df4d8dc11405b0800000000000000
+      internalID: -5403174078400965868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upWalk_2
+      name: WitchWalkBack_2
       rect:
         serializedVersion: 2
         x: 14
@@ -179,16 +179,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e4760d905e25dce4d951502362db5cef
-      internalID: 1897676996
+      spriteID: e40ac55c0b722b6f0800000000000000
+      internalID: -670429754345873330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upWalk_3
+      name: WitchWalkBack_3
       rect:
         serializedVersion: 2
         x: 78
@@ -201,10 +201,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3db14c0214e9046488f1eac481ed9895
-      internalID: -429404698
+      spriteID: 3fcbe0619c57380f0800000000000000
+      internalID: -1115918776138810125
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 55dcd98f07ac05544be1cff27251868c
+    spriteID: b7349a8edf279ad4aa9c99f957fa4da5
     internalID: 0
     vertices: []
     indices: 
@@ -225,10 +225,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      upWalk_0: 111420395
-      upWalk_1: -280987549
-      upWalk_2: 1897676996
-      upWalk_3: -429404698
+      WitchWalkBack_0: -7965349054000265173
+      WitchWalkBack_1: -5403174078400965868
+      WitchWalkBack_2: -670429754345873330
+      WitchWalkBack_3: -1115918776138810125
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

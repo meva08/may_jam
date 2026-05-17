@@ -63,4 +63,12 @@ public class PlayerLight : MonoBehaviour
         float newT = 1f - ((newRadius - minRadius) / (startRadius - minRadius));
         timeElapsed = newT * shrinkDuration;
     }
+
+    public void RestoreRadius(float amount)
+    {
+        float currentRadius = playerLight.pointLightOuterRadius;
+        float newRadius = Mathf.Min(startRadius, currentRadius + amount);
+        float newT = 1f - ((newRadius - minRadius) / (startRadius - minRadius));
+        timeElapsed = Mathf.Max(0f, newT * shrinkDuration);
+    }
 }

@@ -44,6 +44,15 @@ TagManager:
   - name: VFX
     uniqueID: 3966920549
     locked: 0
+  - name: Ground
+    uniqueID: 3740198039
+    locked: 0
+  - name: Player
+    uniqueID: 3241697219
+    locked: 0
+  - name: Walls
+    uniqueID: 2145505277
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5263441099983531284}
   - component: {fileID: 5510546475974142605}
   - component: {fileID: 8097441577645582884}
+  - component: {fileID: -7748531414968623773}
   m_Layer: 0
   m_Name: Refill
   m_TagString: Untagged
@@ -138,3 +139,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-7748531414968623773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389478156977109096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d20be07542dd33148a62ecf0378fe287, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
