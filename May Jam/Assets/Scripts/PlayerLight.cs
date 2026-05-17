@@ -45,4 +45,22 @@ public class PlayerLight : MonoBehaviour
         // TODO: load a game over screen
         // SceneManager.LoadScene("GameOver");
     }
+
+    public float GetCurrentRadius()
+    {
+        return playerLight.pointLightOuterRadius;
+    }
+
+    public float GetMinRadius()
+    {
+        return minRadius;
+    }
+
+    public void ReduceRadius(float amount)
+    {
+        float currentRadius = playerLight.pointLightOuterRadius;
+        float newRadius = Mathf.Max(minRadius, currentRadius - amount);
+        float newT = 1f - ((newRadius - minRadius) / (startRadius - minRadius));
+        timeElapsed = newT * shrinkDuration;
+    }
 }
