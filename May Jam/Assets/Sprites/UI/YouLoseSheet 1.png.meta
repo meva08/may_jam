@@ -1,0 +1,2252 @@
+fileFormatVersion: 2
+guid: 7075444563c0f7c49b485da26d7a2b72
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3673110983390967200
+    second: YouLoseSheet 1_0
+  - first:
+      213: 5887703512073180731
+    second: YouLoseSheet 1_1
+  - first:
+      213: -6980156558834115436
+    second: YouLoseSheet 1_2
+  - first:
+      213: -9132207859235161061
+    second: YouLoseSheet 1_3
+  - first:
+      213: 8740164247956008333
+    second: YouLoseSheet 1_4
+  - first:
+      213: 3619316952875079913
+    second: YouLoseSheet 1_5
+  - first:
+      213: -7278715401729456092
+    second: YouLoseSheet 1_6
+  - first:
+      213: -9218622898175419846
+    second: YouLoseSheet 1_7
+  - first:
+      213: -3037458798143878655
+    second: YouLoseSheet 1_8
+  - first:
+      213: -4018123487575769428
+    second: YouLoseSheet 1_9
+  - first:
+      213: -2962426645860969521
+    second: YouLoseSheet 1_10
+  - first:
+      213: 1330924317024811105
+    second: YouLoseSheet 1_11
+  - first:
+      213: 4715206531879839441
+    second: YouLoseSheet 1_12
+  - first:
+      213: -3702582108139677725
+    second: YouLoseSheet 1_13
+  - first:
+      213: 949459981902771099
+    second: YouLoseSheet 1_14
+  - first:
+      213: -597230507730503251
+    second: YouLoseSheet 1_15
+  - first:
+      213: 1816812549619172998
+    second: YouLoseSheet 1_16
+  - first:
+      213: 3173184134355923742
+    second: YouLoseSheet 1_17
+  - first:
+      213: 3365384371285657324
+    second: YouLoseSheet 1_18
+  - first:
+      213: 7592340353161941094
+    second: YouLoseSheet 1_19
+  - first:
+      213: 6555134346623992690
+    second: YouLoseSheet 1_20
+  - first:
+      213: -3138255342864299668
+    second: YouLoseSheet 1_21
+  - first:
+      213: 1974533405990033642
+    second: YouLoseSheet 1_22
+  - first:
+      213: 1753554069883880155
+    second: YouLoseSheet 1_23
+  - first:
+      213: 4578023583414334317
+    second: YouLoseSheet 1_24
+  - first:
+      213: -6597002801000681920
+    second: YouLoseSheet 1_25
+  - first:
+      213: -1258489997397481393
+    second: YouLoseSheet 1_26
+  - first:
+      213: 2629834839867381532
+    second: YouLoseSheet 1_27
+  - first:
+      213: -1693796505520654047
+    second: YouLoseSheet 1_28
+  - first:
+      213: -3405344408697026065
+    second: YouLoseSheet 1_29
+  - first:
+      213: -948755235753756404
+    second: YouLoseSheet 1_30
+  - first:
+      213: -3580302624995902804
+    second: YouLoseSheet 1_31
+  - first:
+      213: 1092314240384968244
+    second: YouLoseSheet 1_32
+  - first:
+      213: -5127430121507571717
+    second: YouLoseSheet 1_33
+  - first:
+      213: -4656335287137402741
+    second: YouLoseSheet 1_34
+  - first:
+      213: 7430047443369699042
+    second: YouLoseSheet 1_35
+  - first:
+      213: 2276884311629273893
+    second: YouLoseSheet 1_36
+  - first:
+      213: -1350177836559268910
+    second: YouLoseSheet 1_37
+  - first:
+      213: 1180065564095539236
+    second: YouLoseSheet 1_38
+  - first:
+      213: -9093239671519677467
+    second: YouLoseSheet 1_39
+  - first:
+      213: 7980115973791799252
+    second: YouLoseSheet 1_40
+  - first:
+      213: 4368197799709374380
+    second: YouLoseSheet 1_41
+  - first:
+      213: -3581378612798246698
+    second: YouLoseSheet 1_42
+  - first:
+      213: 7219820232265266064
+    second: YouLoseSheet 1_43
+  - first:
+      213: 8691048761632246101
+    second: YouLoseSheet 1_44
+  - first:
+      213: 7945408539720413742
+    second: YouLoseSheet 1_45
+  - first:
+      213: -6630705367920230903
+    second: YouLoseSheet 1_46
+  - first:
+      213: -7935401606544258802
+    second: YouLoseSheet 1_47
+  - first:
+      213: -8874415206281662243
+    second: YouLoseSheet 1_48
+  - first:
+      213: -7954199478656701806
+    second: YouLoseSheet 1_49
+  - first:
+      213: -7336893120285287347
+    second: YouLoseSheet 1_50
+  - first:
+      213: -1508083677429824666
+    second: YouLoseSheet 1_51
+  - first:
+      213: -6209435180014764720
+    second: YouLoseSheet 1_52
+  - first:
+      213: -8591296669432972951
+    second: YouLoseSheet 1_53
+  - first:
+      213: -4213607210911887650
+    second: YouLoseSheet 1_54
+  - first:
+      213: -5863811143688073637
+    second: YouLoseSheet 1_55
+  - first:
+      213: -4449117183512552062
+    second: YouLoseSheet 1_56
+  - first:
+      213: -7713934697447083624
+    second: YouLoseSheet 1_57
+  - first:
+      213: -2242225675141721212
+    second: YouLoseSheet 1_58
+  - first:
+      213: 3701316241421756681
+    second: YouLoseSheet 1_59
+  - first:
+      213: -7162359532406334566
+    second: YouLoseSheet 1_60
+  - first:
+      213: 312812745299708300
+    second: YouLoseSheet 1_61
+  - first:
+      213: 4102178491504672287
+    second: YouLoseSheet 1_62
+  - first:
+      213: -2287422343825709114
+    second: YouLoseSheet 1_63
+  - first:
+      213: -7139835289246897202
+    second: YouLoseSheet 1_64
+  - first:
+      213: 3139155122447465114
+    second: YouLoseSheet 1_65
+  - first:
+      213: 6056443039734775116
+    second: YouLoseSheet 1_66
+  - first:
+      213: -8231925142943968040
+    second: YouLoseSheet 1_67
+  - first:
+      213: 3612750078371889584
+    second: YouLoseSheet 1_68
+  - first:
+      213: 6409450682150555758
+    second: YouLoseSheet 1_69
+  - first:
+      213: 2697722303862405804
+    second: YouLoseSheet 1_70
+  - first:
+      213: -5946631605940097522
+    second: YouLoseSheet 1_71
+  - first:
+      213: 4906713238399707112
+    second: YouLoseSheet 1_72
+  - first:
+      213: 2018158654422275105
+    second: YouLoseSheet 1_73
+  - first:
+      213: -3871284557435380217
+    second: YouLoseSheet 1_74
+  - first:
+      213: 5229542115165427635
+    second: YouLoseSheet 1_75
+  - first:
+      213: -3173013103912848407
+    second: YouLoseSheet 1_76
+  - first:
+      213: 7297726707384733764
+    second: YouLoseSheet 1_77
+  - first:
+      213: -5860025481429147359
+    second: YouLoseSheet 1_78
+  - first:
+      213: 3169253357617651237
+    second: YouLoseSheet 1_79
+  - first:
+      213: -1750298354054381206
+    second: YouLoseSheet 1_80
+  - first:
+      213: -2695720969516449719
+    second: YouLoseSheet 1_81
+  - first:
+      213: 6654751959014477785
+    second: YouLoseSheet 1_82
+  - first:
+      213: -2325339559996108623
+    second: YouLoseSheet 1_83
+  - first:
+      213: 5255515437839877043
+    second: YouLoseSheet 1_84
+  - first:
+      213: -6572327290436314061
+    second: YouLoseSheet 1_85
+  - first:
+      213: -3754927680865611501
+    second: YouLoseSheet 1_86
+  - first:
+      213: -5381722324165662627
+    second: YouLoseSheet 1_87
+  - first:
+      213: 7132364991207593942
+    second: YouLoseSheet 1_88
+  - first:
+      213: 5432824685699335960
+    second: YouLoseSheet 1_89
+  - first:
+      213: 7656124414543585726
+    second: YouLoseSheet 1_90
+  - first:
+      213: 7575662328939160474
+    second: YouLoseSheet 1_91
+  - first:
+      213: 3911498531252097313
+    second: YouLoseSheet 1_92
+  - first:
+      213: -1092031621150643172
+    second: YouLoseSheet 1_93
+  - first:
+      213: -8553911708505330038
+    second: YouLoseSheet 1_94
+  - first:
+      213: 6066308945754588544
+    second: YouLoseSheet 1_95
+  - first:
+      213: 8311280002121735585
+    second: YouLoseSheet 1_96
+  - first:
+      213: 5363742944639975830
+    second: YouLoseSheet 1_97
+  - first:
+      213: 3694517729504489413
+    second: YouLoseSheet 1_98
+  - first:
+      213: 6946478395507972955
+    second: YouLoseSheet 1_99
+  - first:
+      213: -5418645846167038294
+    second: YouLoseSheet 1_100
+  - first:
+      213: 8848863629747968870
+    second: YouLoseSheet 1_101
+  - first:
+      213: 5845731093920135899
+    second: YouLoseSheet 1_102
+  - first:
+      213: 4829681924599882061
+    second: YouLoseSheet 1_103
+  - first:
+      213: -5877315684394127537
+    second: YouLoseSheet 1_104
+  - first:
+      213: 3327204378724115546
+    second: YouLoseSheet 1_105
+  - first:
+      213: -2636843037162275804
+    second: YouLoseSheet 1_106
+  - first:
+      213: 6899474558587204344
+    second: YouLoseSheet 1_107
+  - first:
+      213: 231535641688520637
+    second: YouLoseSheet 1_108
+  - first:
+      213: -1123136426589941109
+    second: YouLoseSheet 1_109
+  - first:
+      213: -2281479739738036120
+    second: YouLoseSheet 1_110
+  - first:
+      213: 4240927912086953287
+    second: YouLoseSheet 1_111
+  - first:
+      213: 3143745189360404971
+    second: YouLoseSheet 1_112
+  - first:
+      213: 8547896470873949989
+    second: YouLoseSheet 1_113
+  - first:
+      213: -8275556476597394104
+    second: YouLoseSheet 1_114
+  - first:
+      213: 6113162958969985704
+    second: YouLoseSheet 1_115
+  - first:
+      213: 4368895908460056440
+    second: YouLoseSheet 1_116
+  - first:
+      213: -7907049165065773421
+    second: YouLoseSheet 1_117
+  - first:
+      213: 6905619077372559803
+    second: YouLoseSheet 1_118
+  - first:
+      213: -4422541974186938962
+    second: YouLoseSheet 1_119
+  - first:
+      213: -6181768346461804340
+    second: YouLoseSheet 1_120
+  - first:
+      213: 1717298114609268437
+    second: YouLoseSheet 1_121
+  - first:
+      213: -3156094591219489941
+    second: YouLoseSheet 1_122
+  - first:
+      213: 7377694849849467344
+    second: YouLoseSheet 1_123
+  - first:
+      213: 7160452831626017663
+    second: YouLoseSheet 1_124
+  - first:
+      213: -694848291918133077
+    second: YouLoseSheet 1_125
+  - first:
+      213: 1090310304278027178
+    second: YouLoseSheet 1_126
+  - first:
+      213: -7490549500014094639
+    second: YouLoseSheet 1_127
+  - first:
+      213: 5240678553779773316
+    second: YouLoseSheet 1_128
+  - first:
+      213: -2020096358729364001
+    second: YouLoseSheet 1_129
+  - first:
+      213: -3075985697242689206
+    second: YouLoseSheet 1_130
+  - first:
+      213: -7940625406490908339
+    second: YouLoseSheet 1_131
+  - first:
+      213: -3833214081737820626
+    second: YouLoseSheet 1_132
+  - first:
+      213: 3173675531801729678
+    second: YouLoseSheet 1_133
+  - first:
+      213: 1750544217447112672
+    second: YouLoseSheet 1_134
+  - first:
+      213: -8629901255512645150
+    second: YouLoseSheet 1_135
+  - first:
+      213: 169443861851137796
+    second: YouLoseSheet 1_136
+  - first:
+      213: 727394200886049459
+    second: YouLoseSheet 1_137
+  - first:
+      213: -7935724144537162924
+    second: YouLoseSheet 1_138
+  - first:
+      213: 5745397989669666686
+    second: YouLoseSheet 1_139
+  - first:
+      213: -1780125611046362692
+    second: YouLoseSheet 1_140
+  - first:
+      213: -5726852139390935005
+    second: YouLoseSheet 1_141
+  - first:
+      213: 6617047749543347497
+    second: YouLoseSheet 1_142
+  - first:
+      213: -7436344057465209725
+    second: YouLoseSheet 1_143
+  - first:
+      213: 4912282809276385241
+    second: YouLoseSheet 1_144
+  - first:
+      213: -7024993655118470362
+    second: YouLoseSheet 1_145
+  - first:
+      213: -5070094170594230501
+    second: YouLoseSheet 1_146
+  - first:
+      213: -99779189763552727
+    second: YouLoseSheet 1_147
+  - first:
+      213: -392943091005410537
+    second: YouLoseSheet 1_148
+  - first:
+      213: 8742950757650766471
+    second: YouLoseSheet 1_149
+  - first:
+      213: -8974299772513204718
+    second: YouLoseSheet 1_150
+  - first:
+      213: 8976832625106832741
+    second: YouLoseSheet 1_151
+  - first:
+      213: 2584737149576412003
+    second: YouLoseSheet 1_152
+  - first:
+      213: -49048357526276413
+    second: YouLoseSheet 1_153
+  - first:
+      213: 769119889348002113
+    second: YouLoseSheet 1_154
+  - first:
+      213: -8945771233033136423
+    second: YouLoseSheet 1_155
+  - first:
+      213: -8171760237049912887
+    second: YouLoseSheet 1_156
+  - first:
+      213: 5505884345380923234
+    second: YouLoseSheet 1_157
+  - first:
+      213: -3308395235717026500
+    second: YouLoseSheet 1_158
+  - first:
+      213: 2224780190337804268
+    second: YouLoseSheet 1_159
+  - first:
+      213: 7750848696206814389
+    second: YouLoseSheet 1_160
+  - first:
+      213: 7338039677508785326
+    second: YouLoseSheet 1_161
+  - first:
+      213: -3149497416221012808
+    second: YouLoseSheet 1_162
+  - first:
+      213: -7644519207058576584
+    second: YouLoseSheet 1_163
+  - first:
+      213: 1558726826153929699
+    second: YouLoseSheet 1_164
+  - first:
+      213: 1209145177505563715
+    second: YouLoseSheet 1_165
+  - first:
+      213: 5360796158114847400
+    second: YouLoseSheet 1_166
+  - first:
+      213: 920683488938719782
+    second: YouLoseSheet 1_167
+  - first:
+      213: 8375941345541602895
+    second: YouLoseSheet 1_168
+  - first:
+      213: -8204445455656065364
+    second: YouLoseSheet 1_169
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YouLoseSheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a4566850d760dc0800000000000000
+      internalID: -3673110983390967200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3611fb562355b150800000000000000
+      internalID: 5887703512073180731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c541a9790812f90800000000000000
+      internalID: -6980156558834115436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cf1472651e34180800000000000000
+      internalID: -9132207859235161061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8dacfd731d4b4970800000000000000
+      internalID: 8740164247956008333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e81ba9b7956a3230800000000000000
+      internalID: 3619316952875079913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42840ca08eeccfa90800000000000000
+      internalID: -7278715401729456092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ad8f3015fd01080800000000000000
+      internalID: -9218622898175419846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 896
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10acfb4f057c8d5d0800000000000000
+      internalID: -3037458798143878655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae746b1af1cc38c0800000000000000
+      internalID: -4018123487575769428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc31e4449a853e6d0800000000000000
+      internalID: -2962426645860969521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16871336d94687210800000000000000
+      internalID: 1330924317024811105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6ac47cb57cf6140800000000000000
+      internalID: 4715206531879839441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e71e949039cd9cc0800000000000000
+      internalID: -3702582108139677725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9373c5b2d82d2d00800000000000000
+      internalID: 949459981902771099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da972b9740636b7f0800000000000000
+      internalID: -597230507730503251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686c583536d963910800000000000000
+      internalID: 1816812549619172998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 768
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13b03f682a690c20800000000000000
+      internalID: 3173184134355923742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6022f414f34be20800000000000000
+      internalID: 3365384371285657324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660d41443596d5960800000000000000
+      internalID: 7592340353161941094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2734c7925f388fa50800000000000000
+      internalID: 6555134346623992690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c690a12946da274d0800000000000000
+      internalID: -3138255342864299668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae89d25dba3f66b10800000000000000
+      internalID: 1974533405990033642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd28ed5c220e55810800000000000000
+      internalID: 1753554069883880155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63b5c69138688f30800000000000000
+      internalID: 4578023583414334317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ee818a7ecb274a0800000000000000
+      internalID: -6597002801000681920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48adbfd302f88ee0800000000000000
+      internalID: -1258489997397481393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17dd387adc0f7420800000000000000
+      internalID: 2629834839867381532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129b4a66d0d6e78e0800000000000000
+      internalID: -1693796505520654047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe940c57d49cdb0d0800000000000000
+      internalID: -3405344408697026065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09fa1ac32855d2f0800000000000000
+      internalID: -948755235753756404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa78b85bb5305ec0800000000000000
+      internalID: -3580302624995902804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4362f39a30ea82f00800000000000000
+      internalID: 1092314240384968244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf737e48875b7d8b0800000000000000
+      internalID: -5127430121507571717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b800f070abf516fb0800000000000000
+      internalID: -4656335287137402741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6a95e98c4dc1760800000000000000
+      internalID: 7430047443369699042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b925dc73e199f10800000000000000
+      internalID: 2276884311629273893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d387444964334de0800000000000000
+      internalID: -1350177836559268910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428e597d06f606010800000000000000
+      internalID: 1180065564095539236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3749162b25ec180800000000000000
+      internalID: -9093239671519677467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7d74c92311fbe60800000000000000
+      internalID: 7980115973791799252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7f15051c4fe9c30800000000000000
+      internalID: 4368197799709374380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0baf960236c4ec0800000000000000
+      internalID: -3581378612798246698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093795ebf34f13460800000000000000
+      internalID: 7219820232265266064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55940b23dcecc9870800000000000000
+      internalID: 8691048761632246101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22f36568f2c34e60800000000000000
+      internalID: 7945408539720413742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eb6de49900bf3a0800000000000000
+      internalID: -6630705367920230903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e098ddb484acfd190800000000000000
+      internalID: -7935401606544258802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0b148736eb7d480800000000000000
+      internalID: -8874415206281662243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ae112a7b10d9190800000000000000
+      internalID: -7954199478656701806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_50
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c5362649e1e2a90800000000000000
+      internalID: -7336893120285287347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_51
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6630b33b2e5321be0800000000000000
+      internalID: -1508083677429824666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_52
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05df76f4a97a3d9a0800000000000000
+      internalID: -6209435180014764720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_53
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9697372a23595c880800000000000000
+      internalID: -8591296669432972951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede829af0924685c0800000000000000
+      internalID: -4213607210911887650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ece7625de8f9ea0800000000000000
+      internalID: -5863811143688073637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dd5a87e7f8142c0800000000000000
+      internalID: -4449117183512552062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8913b1a434992f490800000000000000
+      internalID: -7713934697447083624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483dae6d0a302e0e0800000000000000
+      internalID: -2242225675141721212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_59
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909e35bd287bd5330800000000000000
+      internalID: 3701316241421756681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b994df3ff2a9c90800000000000000
+      internalID: -7162359532406334566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_61
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89cdc4d885575400800000000000000
+      internalID: 312812745299708300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_62
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e326f8a9ddde830800000000000000
+      internalID: 4102178491504672287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c72af06f717140e0800000000000000
+      internalID: -2287422343825709114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbe3a502a53aec90800000000000000
+      internalID: -7139835289246897202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_65
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a3450b3f4809b20800000000000000
+      internalID: 3139155122447465114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d37c13bdecc0450800000000000000
+      internalID: 6056443039734775116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_67
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4d73572b352cd80800000000000000
+      internalID: -8231925142943968040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_68
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b10f9b1e01132230800000000000000
+      internalID: 3612750078371889584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouLoseSheet 1_69
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6018facf61f2f850800000000000000
+      internalID: 6409450682150555758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ada6eca73ce98d5458eb58d0dc4f6401
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      YouLoseSheet 1_0: -3673110983390967200
+      YouLoseSheet 1_1: 5887703512073180731
+      YouLoseSheet 1_10: -2962426645860969521
+      YouLoseSheet 1_11: 1330924317024811105
+      YouLoseSheet 1_12: 4715206531879839441
+      YouLoseSheet 1_13: -3702582108139677725
+      YouLoseSheet 1_14: 949459981902771099
+      YouLoseSheet 1_15: -597230507730503251
+      YouLoseSheet 1_16: 1816812549619172998
+      YouLoseSheet 1_17: 3173184134355923742
+      YouLoseSheet 1_18: 3365384371285657324
+      YouLoseSheet 1_19: 7592340353161941094
+      YouLoseSheet 1_2: -6980156558834115436
+      YouLoseSheet 1_20: 6555134346623992690
+      YouLoseSheet 1_21: -3138255342864299668
+      YouLoseSheet 1_22: 1974533405990033642
+      YouLoseSheet 1_23: 1753554069883880155
+      YouLoseSheet 1_24: 4578023583414334317
+      YouLoseSheet 1_25: -6597002801000681920
+      YouLoseSheet 1_26: -1258489997397481393
+      YouLoseSheet 1_27: 2629834839867381532
+      YouLoseSheet 1_28: -1693796505520654047
+      YouLoseSheet 1_29: -3405344408697026065
+      YouLoseSheet 1_3: -9132207859235161061
+      YouLoseSheet 1_30: -948755235753756404
+      YouLoseSheet 1_31: -3580302624995902804
+      YouLoseSheet 1_32: 1092314240384968244
+      YouLoseSheet 1_33: -5127430121507571717
+      YouLoseSheet 1_34: -4656335287137402741
+      YouLoseSheet 1_35: 7430047443369699042
+      YouLoseSheet 1_36: 2276884311629273893
+      YouLoseSheet 1_37: -1350177836559268910
+      YouLoseSheet 1_38: 1180065564095539236
+      YouLoseSheet 1_39: -9093239671519677467
+      YouLoseSheet 1_4: 8740164247956008333
+      YouLoseSheet 1_40: 7980115973791799252
+      YouLoseSheet 1_41: 4368197799709374380
+      YouLoseSheet 1_42: -3581378612798246698
+      YouLoseSheet 1_43: 7219820232265266064
+      YouLoseSheet 1_44: 8691048761632246101
+      YouLoseSheet 1_45: 7945408539720413742
+      YouLoseSheet 1_46: -6630705367920230903
+      YouLoseSheet 1_47: -7935401606544258802
+      YouLoseSheet 1_48: -8874415206281662243
+      YouLoseSheet 1_49: -7954199478656701806
+      YouLoseSheet 1_5: 3619316952875079913
+      YouLoseSheet 1_50: -7336893120285287347
+      YouLoseSheet 1_51: -1508083677429824666
+      YouLoseSheet 1_52: -6209435180014764720
+      YouLoseSheet 1_53: -8591296669432972951
+      YouLoseSheet 1_54: -4213607210911887650
+      YouLoseSheet 1_55: -5863811143688073637
+      YouLoseSheet 1_56: -4449117183512552062
+      YouLoseSheet 1_57: -7713934697447083624
+      YouLoseSheet 1_58: -2242225675141721212
+      YouLoseSheet 1_59: 3701316241421756681
+      YouLoseSheet 1_6: -7278715401729456092
+      YouLoseSheet 1_60: -7162359532406334566
+      YouLoseSheet 1_61: 312812745299708300
+      YouLoseSheet 1_62: 4102178491504672287
+      YouLoseSheet 1_63: -2287422343825709114
+      YouLoseSheet 1_64: -7139835289246897202
+      YouLoseSheet 1_65: 3139155122447465114
+      YouLoseSheet 1_66: 6056443039734775116
+      YouLoseSheet 1_67: -8231925142943968040
+      YouLoseSheet 1_68: 3612750078371889584
+      YouLoseSheet 1_69: 6409450682150555758
+      YouLoseSheet 1_7: -9218622898175419846
+      YouLoseSheet 1_8: -3037458798143878655
+      YouLoseSheet 1_9: -4018123487575769428
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -10,6 +10,14 @@ public class AIEnemy : MonoBehaviour
     public float distanceBetween;
     private Animator animator;
 
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip enemySound;
+    [SerializeField] private AudioClip enemySpotSound;
+    [SerializeField] private float fadeSpeed = 2f;
+    private bool hasPlayedSound = false;
+    private bool isFadingIn = false;
+    private bool isFadingOut = false;
+
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
@@ -24,13 +32,43 @@ public class AIEnemy : MonoBehaviour
         distance = Vector2.Distance(transform.position, player.position);
         Vector2 direction = (player.position - transform.position).normalized;
 
-        if (distance < playerLight.GetCurrentRadius() + distanceBetween)
+        bool inLight = distance < playerLight.GetCurrentRadius() + distanceBetween;
+
+        if (inLight && !hasPlayedSound)
+        {
+            hasPlayedSound = true;
+
+            if (enemySpotSound != null)
+                audioSource.PlayOneShot(enemySpotSound);
+        }
+        else if (!inLight && hasPlayedSound)
+        {
+            hasPlayedSound = false;
+            isFadingOut = true;
+            isFadingIn = false;
+        }
+
+        if (isFadingIn)
+        {
+            audioSource.volume = Mathf.MoveTowards(audioSource.volume, 1f, fadeSpeed * Time.deltaTime);
+            if (audioSource.volume >= 1f)
+                isFadingIn = false;
+        }
+
+        if (isFadingOut)
+        {
+            audioSource.volume = Mathf.MoveTowards(audioSource.volume, 0f, fadeSpeed * Time.deltaTime);
+            if (audioSource.volume <= 0f)
+            {
+                audioSource.Stop();
+                isFadingOut = false;
+            }
+        }
+
+        if (inLight)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-            
-            // Update animator
-            Vector2 velocity = (Vector2)player.position - (Vector2)transform.position;
-            animator.SetFloat("Speed", velocity.magnitude);
+            animator.SetFloat("Speed", speed);
             animator.SetFloat("DirectionX", direction.x);
             animator.SetFloat("DirectionY", direction.y);
         }
@@ -39,7 +77,6 @@ public class AIEnemy : MonoBehaviour
             animator.SetFloat("Speed", 0f);
         }
     }
-
     void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

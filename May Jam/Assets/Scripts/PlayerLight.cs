@@ -13,6 +13,7 @@ public class PlayerLight : MonoBehaviour
 
     [SerializeField] private float minLightIntensity = 0.8f;
     [SerializeField] private float maxLightIntensity = 1.6f;
+    [SerializeField] private DeathScreen deathScreen;
 
     private float timeElapsed = 0f;
     private bool gameOver = false;
@@ -46,7 +47,7 @@ public class PlayerLight : MonoBehaviour
     void TriggerGameOver()
     {
         gameOver = true;
-        SceneManager.LoadScene("LoseScene");
+        deathScreen.TriggerDeath();
     }
 
     public float GetCurrentRadius()

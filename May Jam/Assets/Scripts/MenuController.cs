@@ -1,31 +1,49 @@
 using UnityEngine;
-using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class MenuController : MonoBehaviour
+public class MainMenuController : MonoBehaviour
 {
-    [SerializeField] private UIDocument uiDocument;
+    [SerializeField] private Button playButton;
+    [SerializeField] private Button exitButton;
 
-    void OnEnable()
+    void Start()
     {
-        var root = uiDocument.rootVisualElement;
+        playButton.onClick.AddListener(OnPlayClicked);
+        exitButton.onClick.AddListener(OnExitClicked);
 
-        var playButton = root.Q<Button>("play-button");
-        var exitButton = root.Q<Button>("exit-button");
+        // Hover effects for play button
+        AddHoverEffect(playButton,
+            normalColor: new Color(98f/255f, 132f/255f, 137f/255f),
+            hoverColor: new Color(0f, 0.86f, 1f));
 
-        playButton.clicked += OnPlayClicked;
-        exitButton.clicked += OnExitClicked;
+        // Hover effects for exit button text
+        AddHoverEffect(exitButton,
+            normalColor: new Color(98f/255f, 132f/255f, 137f/255f),
+            hoverColor: new Color(0f, 0.86f, 1f));
+    }
 
-        // Hover effects
-        playButton.RegisterCallback<MouseEnterEvent>(e =>
-            playButton.style.backgroundColor = new StyleColor(new Color(1f, 0.9f, 0.3f)));
-        playButton.RegisterCallback<MouseLeaveEvent>(e =>
-            playButton.style.backgroundColor = new StyleColor(new Color(1f, 0.78f, 0.2f)));
+    void AddHoverEffect(Button button, Color normalColor, Color hoverColor)
+    {
+        var trigger = button.gameObject.AddComponent<EventTrigger>();
 
-        exitButton.RegisterCallback<MouseEnterEvent>(e =>
-            exitButton.style.color = new StyleColor(new Color(1f, 1f, 1f)));
-        exitButton.RegisterCallback<MouseLeaveEvent>(e =>
-            exitButton.style.color = new StyleColor(new Color(0.59f, 0.59f, 0.71f)));
+        var enterEntry = new EventTrigger.Entry();
+        enterEntry.eventID = EventTriggerType.PointerEnter;
+        enterEntry.callback.AddListener(_ =>
+        {
+            button.GetComponent<Image>().color = hoverColor;
+        });
+
+        var exitEntry = new EventTrigger.Entry();
+        exitEntry.eventID = EventTriggerType.PointerExit;
+        exitEntry.callback.AddListener(_ =>
+        {
+            button.GetComponent<Image>().color = normalColor;
+        });
+
+        trigger.triggers.Add(enterEntry);
+        trigger.triggers.Add(exitEntry);
     }
 
     void OnPlayClicked()

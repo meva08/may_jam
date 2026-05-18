@@ -7,6 +7,8 @@ public class Collectible : MonoBehaviour
     [SerializeField] private float lightRestoreAmount = 2f;
     [SerializeField] private Color activeColor = new Color(0f, 1f, 1f, 1f);
     [SerializeField] private Color inactiveColor = new Color(0.2f, 0.2f, 0.2f, 1f);
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip collectSound;
 
     [HideInInspector] public int quadrantIndex; // set by spawner
     [HideInInspector] public QuadrantSpawner spawner; // set by spawner
@@ -22,6 +24,13 @@ public class Collectible : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.color = activeColor;
+        
+        // start collect sound looping but paused
+        if (collectSound != null)
+        {
+            audioSource.clip = collectSound;
+            audioSource.loop = true;
+        }
     }
 
     void Update()
@@ -39,12 +48,17 @@ public class Collectible : MonoBehaviour
         {
             holdProgress += Time.deltaTime;
 
+            // Start sound when holding begins
+            if (!audioSource.isPlaying)
+                audioSource.Play();
+
             float pulse = Mathf.Lerp(1f, 0.5f, holdProgress / holdTime);
             spriteRenderer.color = new Color(activeColor.r * pulse, activeColor.g * pulse, activeColor.b * pulse, 1f);
 
             if (holdProgress >= holdTime)
             {
                 isCollecting = true;
+                audioSource.Stop();
                 Collect();
             }
         }
@@ -52,6 +66,7 @@ public class Collectible : MonoBehaviour
         {
             holdProgress = 0f;
             spriteRenderer.color = activeColor;
+            audioSource.Stop(); // stop when they let go
         }
     }
 
