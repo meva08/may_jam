@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 6cc5a757cfbd2134b9d2cdbc5a5fb9cb
+guid: 8f2a02af78eeabb41890e586fcc8e10f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4542300993695325799
-    second: fullprism_0
+      213: 8773312233336616854
+    second: fullprism 1_0
+  - first:
+      213: 6570151184196253950
+    second: fullprism 1_1
+  - first:
+      213: -5350226869853052653
+    second: fullprism 1_2
+  - first:
+      213: 3136166658315335591
+    second: fullprism 1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fullprism_0
+      name: fullprism 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 991e2e7ff4186f0c0800000000000000
-      internalID: -4542300993695325799
+      spriteID: 6973e934ef011c970800000000000000
+      internalID: 8773312233336616854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fullprism_1
+      name: fullprism 1_1
       rect:
         serializedVersion: 2
         x: 64
@@ -148,16 +157,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7010afe6bcd208f43ba85d1dfa85af12
-      internalID: 1887486248
+      spriteID: ef831ae11bddd2b50800000000000000
+      internalID: 6570151184196253950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fullprism_2
+      name: fullprism 1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -170,16 +179,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 79ca2f862997ca74ea942491b87529fa
-      internalID: 1428462532
+      spriteID: 311a8a2320d20c5b0800000000000000
+      internalID: -5350226869853052653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fullprism_3
+      name: fullprism 1_3
       rect:
         serializedVersion: 2
         x: 64
@@ -192,10 +201,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a1e8517e1502d1644a7a81887ac36d09
-      internalID: 536531200
+      spriteID: 7a73f49a5f6e58b20800000000000000
+      internalID: 3136166658315335591
       vertices: []
       indices: 
       edges: []
@@ -204,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1ef73702ac5fad04496842339da8f40f
+    spriteID: 8d581ec584177434b9e4a5ce67e8d382
     internalID: 0
     vertices: []
     indices: 
@@ -216,10 +225,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      fullprism_0: -4542300993695325799
-      fullprism_1: 1887486248
-      fullprism_2: 1428462532
-      fullprism_3: 536531200
+      fullprism 1_0: 8773312233336616854
+      fullprism 1_1: 6570151184196253950
+      fullprism 1_2: -5350226869853052653
+      fullprism 1_3: 3136166658315335591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

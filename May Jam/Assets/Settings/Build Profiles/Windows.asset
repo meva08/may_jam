@@ -26,6 +26,12 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/MainScene.unity
     m_guid: 8c9cfa26abfee488c85f1582747f6a02
+  - m_enabled: 1
+    m_path: Assets/Scenes/WinScene.unity
+    m_guid: 6dfee68ec67fe014daabcd639f11b7d2
+  - m_enabled: 1
+    m_path: Assets/Scenes/LoseScene.unity
+    m_guid: 51fa5a6ec8087824391eb8da35126d02
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
