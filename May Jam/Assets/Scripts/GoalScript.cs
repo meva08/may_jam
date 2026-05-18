@@ -19,6 +19,7 @@ public class GoalScript : MonoBehaviour
     private Transform player;
     private PlayerLight playerLight;
     private bool playerInRange = false;
+    [SerializeField] private GameObject hintText;
 
     void Start()
     {
@@ -39,12 +40,15 @@ public class GoalScript : MonoBehaviour
             TransferLight();
         }
 
-        // Update visuals based on fill amount
         float fillAmount = currentPower / powerThreshold;
         spriteRenderer.color = Color.Lerp(emptyColor, fullColor, fillAmount);
         goalLight.intensity = Mathf.Lerp(0f, 2f, fillAmount);
         goalLight.color = Color.Lerp(emptyColor, fullColor, fillAmount);
         goalLight.pointLightOuterRadius = Mathf.Lerp(1f, 5f, fillAmount);
+
+        // hide hint once player starts filling
+        if (hintText != null)
+            hintText.SetActive(currentPower <= 0f);
     }
 
     void TransferLight()

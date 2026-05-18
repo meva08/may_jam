@@ -30,6 +30,7 @@ public class PlayerLight : MonoBehaviour
         if (timeElapsed < shrinkDuration)
         {
             timeElapsed += Time.deltaTime + extraDrain;
+            Debug.Log("extra drain" + extraDrain);
             float t = timeElapsed / shrinkDuration;
             extraDrain = 0f; 
             float currentRadius = Mathf.Lerp(startRadius, minRadius, t);

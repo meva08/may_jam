@@ -81,6 +81,7 @@ public class AIEnemy : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("ENEmy player collision");
             playerLight.ReduceRadius(lightDrainPerSecond);
         }
     }
