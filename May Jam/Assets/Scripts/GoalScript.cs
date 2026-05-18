@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class GoalScript : MonoBehaviour
 {
@@ -53,7 +54,6 @@ public class GoalScript : MonoBehaviour
 
     void Win()
     {
-        Debug.Log("You win!");
-        //SceneManager.LoadScene("WinScene");
+        SceneManager.LoadScene("WinScene");
     }
 }

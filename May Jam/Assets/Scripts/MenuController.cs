@@ -30,7 +30,7 @@ public class MenuController : MonoBehaviour
 
     void OnPlayClicked()
     {
-        SceneManager.LoadScene("MainScene"); // replace with your game scene name
+        SceneManager.LoadScene("MainScene");
     }
 
     void OnExitClicked()

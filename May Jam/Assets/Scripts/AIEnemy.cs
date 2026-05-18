@@ -44,7 +44,7 @@ public class AIEnemy : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerLight.ReduceRadius(lightDrainPerSecond * Time.deltaTime);
+            playerLight.ReduceRadius(lightDrainPerSecond);
         }
     }
 }

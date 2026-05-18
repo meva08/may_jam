@@ -8,6 +8,11 @@ public class PlayerLight : MonoBehaviour
     [SerializeField] private float startRadius = 10f;
     [SerializeField] private float minRadius = 0.5f;
     [SerializeField] private float shrinkDuration = 60f;
+    private float extraDrain = 0f;
+    [SerializeField] private float falloffExponent = 1.8f;
+
+    [SerializeField] private float minLightIntensity = 0.8f;
+    [SerializeField] private float maxLightIntensity = 1.6f;
 
     private float timeElapsed = 0f;
     private bool gameOver = false;
@@ -17,33 +22,31 @@ public class PlayerLight : MonoBehaviour
         playerLight.pointLightOuterRadius = startRadius;
     }
 
-    [SerializeField] private float radiusEdgeWidth = 0.5f;
     void Update()
     {
         if (gameOver) return;
 
         if (timeElapsed < shrinkDuration)
         {
-            timeElapsed += Time.deltaTime;
+            timeElapsed += Time.deltaTime + extraDrain;
             float t = timeElapsed / shrinkDuration;
+            extraDrain = 0f; 
             float currentRadius = Mathf.Lerp(startRadius, minRadius, t);
             playerLight.pointLightOuterRadius = currentRadius;
-            playerLight.pointLightInnerRadius = Mathf.Max(0, currentRadius - radiusEdgeWidth);
+            playerLight.pointLightInnerRadius = Mathf.Max(0, currentRadius * 0.25f);
+            playerLight.intensity = Mathf.Lerp(minLightIntensity, maxLightIntensity, t);
         }
         else
         {
             TriggerGameOver();
         }
+        playerLight.falloffIntensity = Mathf.Clamp01(1f - (1f / falloffExponent));
     }
 
     void TriggerGameOver()
     {
         gameOver = true;
-        // reload the scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
-        // TODO: load a game over screen
-        // SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene("LoseScene");
     }
 
     public float GetCurrentRadius()
@@ -58,10 +61,7 @@ public class PlayerLight : MonoBehaviour
 
     public void ReduceRadius(float amount)
     {
-        float currentRadius = playerLight.pointLightOuterRadius;
-        float newRadius = Mathf.Max(minRadius, currentRadius - amount);
-        float newT = 1f - ((newRadius - minRadius) / (startRadius - minRadius));
-        timeElapsed = newT * shrinkDuration;
+        extraDrain += amount;
     }
 
     public void RestoreRadius(float amount)

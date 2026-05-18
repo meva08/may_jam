@@ -3,17 +3,31 @@ using UnityEngine.InputSystem;
 
 public class Collectible : MonoBehaviour
 {
-    [SerializeField] private float holdTime = 2f;  // seconds to hold for collection
-    [SerializeField] private float lightRestoreAmount = 2f; // how much radius to restore
-    [SerializeField] private SpriteRenderer progressRenderer; // optional visual feedback
+    [SerializeField] private float holdTime = 2f;
+    [SerializeField] private float lightRestoreAmount = 2f;
+    [SerializeField] private Color activeColor = new Color(0f, 1f, 1f, 1f);
+    [SerializeField] private Color inactiveColor = new Color(0.2f, 0.2f, 0.2f, 1f);
+
+    [HideInInspector] public int quadrantIndex; // set by spawner
+    [HideInInspector] public QuadrantSpawner spawner; // set by spawner
 
     private bool playerInRange = false;
+    private bool isActive = true;
+    private bool isCollecting = false;
     private float holdProgress = 0f;
     private PlayerLight playerLight;
+    private SpriteRenderer spriteRenderer;
+
+    void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.color = activeColor;
+    }
 
     void Update()
     {
-        if (!playerInRange) 
+        if (!isActive) return;
+        if (!playerInRange && !isCollecting)
         {
             holdProgress = 0f;
             return;
@@ -25,29 +39,38 @@ public class Collectible : MonoBehaviour
         {
             holdProgress += Time.deltaTime;
 
-            // shrink the collectible as progress increases
-            float scale = Mathf.Lerp(1f, 0f, holdProgress / holdTime);
-            transform.localScale = new Vector3(scale, scale, scale);
+            float pulse = Mathf.Lerp(1f, 0.5f, holdProgress / holdTime);
+            spriteRenderer.color = new Color(activeColor.r * pulse, activeColor.g * pulse, activeColor.b * pulse, 1f);
 
             if (holdProgress >= holdTime)
             {
+                isCollecting = true;
                 Collect();
             }
         }
         else
         {
-            // Reset progress if they let go
             holdProgress = 0f;
-            transform.localScale = Vector3.one;
+            spriteRenderer.color = activeColor;
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && isActive)
         {
             playerInRange = true;
             playerLight = other.GetComponent<PlayerLight>();
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !isCollecting)
+        {
+            playerInRange = false;
+            holdProgress = 0f;
+            spriteRenderer.color = activeColor;
         }
     }
 
@@ -57,6 +80,13 @@ public class Collectible : MonoBehaviour
         {
             playerLight.RestoreRadius(lightRestoreAmount);
         }
+
+        // Tell spawner to spawn a new one in this quadrant after delay
+        if (spawner != null)
+        {
+            spawner.RespawnCollectibleInQuadrant(quadrantIndex);
+        }
+
         Destroy(gameObject);
     }
 }

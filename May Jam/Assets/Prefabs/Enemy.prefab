@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2bc566ad37c20f45be1414cc03f6c2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  lightDrainPerSecond: 0.5
+  lightDrainPerSecond: 0.3
   player: {fileID: 0}
   speed: 1
   distanceBetween: 1
