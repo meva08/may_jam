@@ -17,6 +17,7 @@ public class AIEnemy : MonoBehaviour
     private bool hasPlayedSound = false;
     private bool isFadingIn = false;
     private bool isFadingOut = false;
+    private bool isTouchingPlayer = false;
 
     void Start()
     {
@@ -65,6 +66,10 @@ public class AIEnemy : MonoBehaviour
             }
         }
 
+        if (isTouchingPlayer)
+        {
+            playerLight.ReduceRadius(lightDrainPerSecond);
+        }
         if (inLight)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
@@ -77,12 +82,19 @@ public class AIEnemy : MonoBehaviour
             animator.SetFloat("Speed", 0f);
         }
     }
-    void OnTriggerStay2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("ENEmy player collision");
-            playerLight.ReduceRadius(lightDrainPerSecond);
+            isTouchingPlayer = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isTouchingPlayer = false;
         }
     }
 }
