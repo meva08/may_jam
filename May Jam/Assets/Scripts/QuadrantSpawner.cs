@@ -50,7 +50,6 @@ public class QuadrantSpawner : MonoBehaviour
     public void RespawnCollectibleInQuadrant(int quadrantIndex)
     {
         Invoke(nameof(SpawnCollectibleInQuadrant) + quadrantIndex, collectibleRespawnTime);
-        // Unity's Invoke doesn't support parameters, so use a coroutine instead:
         StartCoroutine(RespawnAfterDelay(quadrantIndex, collectibleRespawnTime));
     }
 

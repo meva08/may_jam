@@ -19,12 +19,16 @@ public class FootstepAudio : MonoBehaviour
         if (rb.linearVelocity.magnitude > 0.1f)
         {
             if (!audioSource.isPlaying)
+            {
                 audioSource.Play();
+            }
         }
         else
         {
             if (audioSource.isPlaying)
+            {
                 audioSource.Stop();
+            }
         }
     }
 }

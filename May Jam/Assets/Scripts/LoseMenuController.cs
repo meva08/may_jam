@@ -13,10 +13,8 @@ public class LoseMenuController : MonoBehaviour
         playAgainButton.onClick.AddListener(OnPlayAgainClicked);
         menuButton.onClick.AddListener(OnMenuClicked);
 
-        // Play Again button - gets brighter blue on hover
-        AddHoverEffect(playAgainButton,
-            normalColor: new Color(98f/255f, 132f/255f, 137f/255f),
-            hoverColor: new Color(0f, 0.86f, 1f, 1f));
+        // play Again button hover effect
+        AddHoverEffect(playAgainButton, normalColor: new Color(98f/255f, 132f/255f, 137f/255f), hoverColor: new Color(0f, 0.86f, 1f, 1f));
 
        var menuText = menuButton.GetComponentInChildren<TMPro.TextMeshProUGUI>();
         var trigger = menuButton.gameObject.AddComponent<EventTrigger>();
@@ -39,13 +37,11 @@ public class LoseMenuController : MonoBehaviour
 
         var enterEntry = new EventTrigger.Entry();
         enterEntry.eventID = EventTriggerType.PointerEnter;
-        enterEntry.callback.AddListener(_ =>
-            button.GetComponent<Image>().color = hoverColor);
+        enterEntry.callback.AddListener(_ => button.GetComponent<Image>().color = hoverColor);
 
         var exitEntry = new EventTrigger.Entry();
         exitEntry.eventID = EventTriggerType.PointerExit;
-        exitEntry.callback.AddListener(_ =>
-            button.GetComponent<Image>().color = normalColor);
+        exitEntry.callback.AddListener(_ => button.GetComponent<Image>().color = normalColor);
 
         trigger.triggers.Add(enterEntry);
         trigger.triggers.Add(exitEntry);

@@ -10,17 +10,17 @@ public class GoalScript : MonoBehaviour
     [SerializeField] private float transferRange = 2f;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Light2D goalLight;
+    [SerializeField] private GameObject hintText;
 
-    // Color progression from dark purple → blue → yellow as it fills
+    // color change as prism fills
     [SerializeField] private Color emptyColor = new Color(0.1f, 0.05f, 0.2f);
     [SerializeField] private Color fullColor = new Color(1f, 0.9f, 0.3f);
 
     private float currentPower = 0f;
+    private bool playerInRange = false;
     private Transform player;
     private PlayerLight playerLight;
-    private bool playerInRange = false;
-    [SerializeField] private GameObject hintText;
-
+    
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -48,7 +48,9 @@ public class GoalScript : MonoBehaviour
 
         // hide hint once player starts filling
         if (hintText != null)
+        {
             hintText.SetActive(currentPower <= 0f);
+        }
     }
 
     void TransferLight()

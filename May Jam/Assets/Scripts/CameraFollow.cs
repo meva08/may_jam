@@ -6,11 +6,11 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float smoothSpeed = 5f;
     [SerializeField] private Vector3 offset = new Vector3(0, 0, -10f);
 
-    // Camera half-sizes (adjusted automatically based on orthographic size)
+    // camera half-sizes
     private float camHalfHeight;
     private float camHalfWidth;
 
-    // Map bounds based on center (10, -10) and size 40x40
+    // map bounds based on center (10, -10) and size 40x40
     private float minX = -10f;  // 10 - 20
     private float maxX = 30f;   // 10 + 20
     private float minY = -30f;  // -10 - 20
@@ -27,7 +27,7 @@ public class CameraFollow : MonoBehaviour
     {
         Vector3 targetPosition = player.position + offset;
 
-        // Clamp so camera doesn't go outside map edges
+        // camera clamping
         targetPosition.x = Mathf.Clamp(targetPosition.x, minX + camHalfWidth, maxX - camHalfWidth);
         targetPosition.y = Mathf.Clamp(targetPosition.y, minY + camHalfHeight, maxY - camHalfHeight);
 

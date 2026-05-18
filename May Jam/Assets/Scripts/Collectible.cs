@@ -48,9 +48,11 @@ public class Collectible : MonoBehaviour
         {
             holdProgress += Time.deltaTime;
 
-            // Start sound when holding begins
+            // start sound when holding begins
             if (!audioSource.isPlaying)
+            {
                 audioSource.Play();
+            }
 
             float pulse = Mathf.Lerp(1f, 0.5f, holdProgress / holdTime);
             spriteRenderer.color = new Color(activeColor.r * pulse, activeColor.g * pulse, activeColor.b * pulse, 1f);
@@ -96,7 +98,7 @@ public class Collectible : MonoBehaviour
             playerLight.RestoreRadius(lightRestoreAmount);
         }
 
-        // Tell spawner to spawn a new one in this quadrant after delay
+        // spawn a new collectible in the same quadrant after delay
         if (spawner != null)
         {
             spawner.RespawnCollectibleInQuadrant(quadrantIndex);

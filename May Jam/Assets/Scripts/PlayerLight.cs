@@ -5,16 +5,19 @@ using UnityEngine.SceneManagement;
 public class PlayerLight : MonoBehaviour
 {
     [SerializeField] private Light2D playerLight;
+
+    // light radius
     [SerializeField] private float startRadius = 10f;
     [SerializeField] private float minRadius = 0.5f;
     [SerializeField] private float shrinkDuration = 60f;
-    private float extraDrain = 0f;
     [SerializeField] private float falloffExponent = 1.8f;
-
     [SerializeField] private float minLightIntensity = 0.8f;
     [SerializeField] private float maxLightIntensity = 1.6f;
+
+    // reference to the death screen
     [SerializeField] private DeathScreen deathScreen;
 
+    private float extraDrain = 0f;
     private float timeElapsed = 0f;
     private bool gameOver = false;
 
@@ -30,9 +33,10 @@ public class PlayerLight : MonoBehaviour
         if (timeElapsed < shrinkDuration)
         {
             timeElapsed += Time.deltaTime + extraDrain;
-            Debug.Log("extra drain" + extraDrain);
             float t = timeElapsed / shrinkDuration;
             extraDrain = 0f; 
+
+            // calculate current radius and intensity based on t
             float currentRadius = Mathf.Lerp(startRadius, minRadius, t);
             playerLight.pointLightOuterRadius = currentRadius;
             playerLight.pointLightInnerRadius = Mathf.Max(0, currentRadius * 0.25f);
@@ -42,6 +46,7 @@ public class PlayerLight : MonoBehaviour
         {
             TriggerGameOver();
         }
+        
         playerLight.falloffIntensity = Mathf.Clamp01(1f - (1f / falloffExponent));
     }
 

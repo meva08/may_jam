@@ -13,15 +13,9 @@ public class MainMenuController : MonoBehaviour
         playButton.onClick.AddListener(OnPlayClicked);
         exitButton.onClick.AddListener(OnExitClicked);
 
-        // Hover effects for play button
-        AddHoverEffect(playButton,
-            normalColor: new Color(98f/255f, 132f/255f, 137f/255f),
-            hoverColor: new Color(0f, 0.86f, 1f));
-
-        // Hover effects for exit button text
-        AddHoverEffect(exitButton,
-            normalColor: new Color(98f/255f, 132f/255f, 137f/255f),
-            hoverColor: new Color(0f, 0.86f, 1f));
+        // hover effects for buttons
+        AddHoverEffect(playButton, normalColor: new Color(98f/255f, 132f/255f, 137f/255f), hoverColor: new Color(0f, 0.86f, 1f));
+        AddHoverEffect(exitButton, normalColor: new Color(98f/255f, 132f/255f, 137f/255f), hoverColor: new Color(0f, 0.86f, 1f));
     }
 
     void AddHoverEffect(Button button, Color normalColor, Color hoverColor)
@@ -54,8 +48,8 @@ public class MainMenuController : MonoBehaviour
     void OnExitClicked()
     {
         Application.Quit();
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#endif
+        #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+        #endif
     }
 }

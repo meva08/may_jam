@@ -3,13 +3,15 @@ using UnityEngine;
 public class AIEnemy : MonoBehaviour
 {
     [SerializeField] private float lightDrainPerSecond = 0.5f;
+    private Animator animator;
     public Transform player;
     private PlayerLight playerLight;
     public float speed;
     private float distance;
     public float distanceBetween;
-    private Animator animator;
-
+    private bool isTouchingPlayer = false;
+    
+    // sound playing variables
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip enemySound;
     [SerializeField] private AudioClip enemySpotSound;
@@ -17,7 +19,6 @@ public class AIEnemy : MonoBehaviour
     private bool hasPlayedSound = false;
     private bool isFadingIn = false;
     private bool isFadingOut = false;
-    private bool isTouchingPlayer = false;
 
     void Start()
     {
@@ -40,7 +41,9 @@ public class AIEnemy : MonoBehaviour
             hasPlayedSound = true;
 
             if (enemySpotSound != null)
+            {
                 audioSource.PlayOneShot(enemySpotSound);
+            }
         }
         else if (!inLight && hasPlayedSound)
         {
@@ -53,7 +56,9 @@ public class AIEnemy : MonoBehaviour
         {
             audioSource.volume = Mathf.MoveTowards(audioSource.volume, 1f, fadeSpeed * Time.deltaTime);
             if (audioSource.volume >= 1f)
+            {
                 isFadingIn = false;
+            }
         }
 
         if (isFadingOut)

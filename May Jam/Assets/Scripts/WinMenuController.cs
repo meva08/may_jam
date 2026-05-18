@@ -13,12 +13,10 @@ public class WinMenuController : MonoBehaviour
         playAgainButton.onClick.AddListener(OnPlayAgainClicked);
         menuButton.onClick.AddListener(OnMenuClicked);
 
-        // Play Again button - gets brighter blue on hover
-        AddHoverEffect(playAgainButton,
-            normalColor: new Color(0f, 0.71f, 0.86f, 1f),
-            hoverColor: new Color(0f, 0.86f, 1f, 1f));
+        // button hover effects
+        AddHoverEffect(playAgainButton, normalColor: new Color(0f, 0.71f, 0.86f, 1f), hoverColor: new Color(0f, 0.86f, 1f, 1f));
 
-       var menuText = menuButton.GetComponentInChildren<TMPro.TextMeshProUGUI>();
+        var menuText = menuButton.GetComponentInChildren<TMPro.TextMeshProUGUI>();
         var trigger = menuButton.gameObject.AddComponent<EventTrigger>();
 
         var enterEntry = new EventTrigger.Entry();

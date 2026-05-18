@@ -22,31 +22,31 @@ public class CharacterController : MonoBehaviour
         animator.SetFloat("Speed", speed);
 
         if (speed > 0.1f)
-    {
-        float x = _rigidbody2D.linearVelocity.x;
-        float y = _rigidbody2D.linearVelocity.y;
-
-        // Only set the dominant direction to avoid conflicts
-        if (Mathf.Abs(x) > Mathf.Abs(y))
         {
-            animator.SetFloat("DirectionX", x);
-            animator.SetFloat("DirectionY", 0f);
-            animator.SetFloat("LastDirectionX", x);
-            animator.SetFloat("LastDirectionY", 0f);
+            float x = _rigidbody2D.linearVelocity.x;
+            float y = _rigidbody2D.linearVelocity.y;
+
+            // only allow movement in one direction at a time
+            if (Mathf.Abs(x) > Mathf.Abs(y))
+            {
+                animator.SetFloat("DirectionX", x);
+                animator.SetFloat("DirectionY", 0f);
+                animator.SetFloat("LastDirectionX", x);
+                animator.SetFloat("LastDirectionY", 0f);
+            }
+            else
+            {
+                animator.SetFloat("DirectionX", 0f);
+                animator.SetFloat("DirectionY", y);
+                animator.SetFloat("LastDirectionX", 0f);
+                animator.SetFloat("LastDirectionY", y);
+            }
         }
         else
         {
-            animator.SetFloat("DirectionX", 0f);
-            animator.SetFloat("DirectionY", y);
-            animator.SetFloat("LastDirectionX", 0f);
-            animator.SetFloat("LastDirectionY", y);
+            animator.SetFloat("DirectionX", animator.GetFloat("LastDirectionX"));
+            animator.SetFloat("DirectionY", animator.GetFloat("LastDirectionY"));
         }
-    }
-    else
-    {
-        animator.SetFloat("DirectionX", animator.GetFloat("LastDirectionX"));
-        animator.SetFloat("DirectionY", animator.GetFloat("LastDirectionY"));
-    }
     }
 
     public void Move(Vector2 moveVector)

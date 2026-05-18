@@ -8,7 +8,7 @@ public class Input : MonoBehaviour
 
     void Awake()
     {
-        // Explicitly enable the Player action map
+        // Enable the Player action map
         var playerMap = InputSystem.actions.FindActionMap("Player");
         if (playerMap != null)
         {
