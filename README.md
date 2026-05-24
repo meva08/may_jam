@@ -49,8 +49,8 @@ Your goal: collect enough light to power the ancient prism at the center of the 
 
 ## Made By
 
-| **Samuel Johnson-Noya** | Art & Music |
-| **Maryeva Gonzalez** | Programming |
+**Samuel Johnson-Noya** | Art & Music |
+**Maryeva Gonzalez** | Programming |
 
 ---
 
