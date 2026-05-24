@@ -80,7 +80,3 @@ Assets/
 ```
 
 ---
-
-## 📜 License
-
-This project was made for a game jam and is open for viewing as a portfolio piece. Please do not redistribute or use assets without permission from the team.
